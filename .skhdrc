@@ -1,0 +1,31 @@
+# ############################################################### #
+# ############################################################### #
+
+cmd - return: open -n -a /Applications/kitty.app
+
+cmd - n : yabai -m window --focus west
+cmd - o : yabai -m window --focus east
+cmd - e : yabai -m window --focus south
+cmd - i : yabai -m window --focus north
+
+shift + cmd - n : yabai -m window --swap west
+shift + cmd - o : yabai -m window --swap east
+shift + cmd - e : yabai -m window --swap south
+shift + cmd - i : yabai -m window --swap north
+
+ctrl + cmd - n : yabai -m window --insert west
+ctrl + cmd - o : yabai -m window --insert east
+ctrl + cmd - e : yabai -m window --insert south
+ctrl + cmd - i : yabai -m window --insert north
+
+shift + cmd - z : yabai -m window --space next; yabai -m space --focus next
+
+
+ cmd + alt - x : yabai -m space --focus recent
+
+cmd - 1 : yabai -m display --focus 1 
+cmd - 2 : yabai -m display --focus 2 
+
+cmd + shift - 2 : yabai -m  space --focus next 
+cmd + shift - 1 : yabai -m  space --focus prev 
+
